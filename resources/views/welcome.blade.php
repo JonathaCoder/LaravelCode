@@ -1,14 +1,8 @@
    @extends('layouts.main')
-   @section('title','HDC Events')
+   @section('title','HDC events')
    @section('content')
-
    
-   
-   <a href="produtos">Produtos</a>
-   <a href="contact">contatos</a>
-
-   <div>
-     <img src="/images/eventimg.png" alt="">
+     <img src="/images/eventimg.png" alt="" >
      <h1>Home</h1>
      @if(10 < 5 ) <h1>sim e maior</h1>
        @endif
@@ -32,5 +26,4 @@
            <li>{{$nome}}</li>
          </ul>
          @endforeach
-
-    @endsection
+@endsection

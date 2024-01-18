@@ -4,4 +4,25 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
+   background-color: white;
+  
+}
+.navbar-brand img {
+   height: 3vh;
+  
+   
+}
+.container-fluid{
+   background-color: rgb(120, 120, 252);
+   height: 5vh;
+
+}
+footer{
+   background-color: rgb(48, 48, 253);
+   height: 14vh;
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
 }
